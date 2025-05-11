@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindMate - MVP</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">MindMate</div>
+      <div class="links">
+        <a href="#accueil">Accueil</a>
+        <a href="#fonctionnalites">Fonctionnalités</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="accueil" class="section">
+    <h2>Bienvenue sur MindMate</h2>
+    <p>Votre assistant intelligent pour organiser vos idées, poser vos questions, et rester productif au quotidien.</p>
+  </section>
+
+  <section id="fonctionnalites" class="section">
+    <h2>Fonctionnalités</h2>
+    <p>• Posez vos questions à l'IA<br>
+    • Sauvegardez et organisez vos projets (à venir)<br>
+    • Interface simple et intuitive<br>
+    • Version freemium avec accès rapide au chat IA</p>
+  </section>
+
+  <section class="section">
+    <h2>Discussion avec MindMate</h2>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Pose une question..." />
+      <button onclick="sendMessage()">Envoyer</button>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Une question ? Contacte-nous à <a href="mailto:contact@mindmate.ai">contact@mindmate.ai</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 MindMate. Tous droits réservés.
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
